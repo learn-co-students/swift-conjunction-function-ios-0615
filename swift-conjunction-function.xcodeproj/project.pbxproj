@@ -13,6 +13,8 @@
 		4DAF60141BE3FE8A00BD3707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DAF60131BE3FE8A00BD3707 /* Assets.xcassets */; };
 		4DAF60171BE3FE8A00BD3707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAF60151BE3FE8A00BD3707 /* LaunchScreen.storyboard */; };
 		4DAF60221BE3FE8A00BD3707 /* swift_conjunction_functionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF60211BE3FE8A00BD3707 /* swift_conjunction_functionTests.swift */; };
+		4DAF602E1BE3FFF700BD3707 /* Sandbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF602D1BE3FFF700BD3707 /* Sandbox.swift */; };
+		4DAF60301BE4007100BD3707 /* SandboxSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF602F1BE4007100BD3707 /* SandboxSpec.swift */; };
 		C9901CA7424E389AE0F965CB /* Pods_swift_conjunction_functionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DA02093557DB4D3FBDF15C /* Pods_swift_conjunction_functionTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		4DAF601D1BE3FE8A00BD3707 /* swift-conjunction-functionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-conjunction-functionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAF60211BE3FE8A00BD3707 /* swift_conjunction_functionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_conjunction_functionTests.swift; sourceTree = "<group>"; };
 		4DAF60231BE3FE8A00BD3707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DAF602D1BE3FFF700BD3707 /* Sandbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sandbox.swift; sourceTree = "<group>"; };
+		4DAF602F1BE4007100BD3707 /* SandboxSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandboxSpec.swift; sourceTree = "<group>"; };
 		66AF63FD94C9AF95B106F4DA /* Pods-swift-conjunction-functionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-conjunction-functionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-conjunction-functionTests/Pods-swift-conjunction-functionTests.release.xcconfig"; sourceTree = "<group>"; };
 		66B06756D7BA4BB72FA4AA43 /* Pods-swift-conjunction-functionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-conjunction-functionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-conjunction-functionTests/Pods-swift-conjunction-functionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1DA02093557DB4D3FBDF15C /* Pods_swift_conjunction_functionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_conjunction_functionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,11 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				4DAF600C1BE3FE8A00BD3707 /* AppDelegate.swift */,
-				4DAF600E1BE3FE8A00BD3707 /* ViewController.swift */,
-				4DAF60101BE3FE8A00BD3707 /* Main.storyboard */,
-				4DAF60131BE3FE8A00BD3707 /* Assets.xcassets */,
-				4DAF60151BE3FE8A00BD3707 /* LaunchScreen.storyboard */,
-				4DAF60181BE3FE8A00BD3707 /* Info.plist */,
+				4DAF602D1BE3FFF700BD3707 /* Sandbox.swift */,
+				4DAF602C1BE3FFE700BD3707 /* Resources */,
 			);
 			path = "swift-conjunction-function";
 			sourceTree = "<group>";
@@ -97,10 +98,23 @@
 		4DAF60201BE3FE8A00BD3707 /* swift-conjunction-functionTests */ = {
 			isa = PBXGroup;
 			children = (
+				4DAF602F1BE4007100BD3707 /* SandboxSpec.swift */,
 				4DAF60211BE3FE8A00BD3707 /* swift_conjunction_functionTests.swift */,
 				4DAF60231BE3FE8A00BD3707 /* Info.plist */,
 			);
 			path = "swift-conjunction-functionTests";
+			sourceTree = "<group>";
+		};
+		4DAF602C1BE3FFE700BD3707 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4DAF600E1BE3FE8A00BD3707 /* ViewController.swift */,
+				4DAF60101BE3FE8A00BD3707 /* Main.storyboard */,
+				4DAF60131BE3FE8A00BD3707 /* Assets.xcassets */,
+				4DAF60151BE3FE8A00BD3707 /* LaunchScreen.storyboard */,
+				4DAF60181BE3FE8A00BD3707 /* Info.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		9C151E50627E98BE025A1666 /* Pods */ = {
@@ -273,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DAF600F1BE3FE8A00BD3707 /* ViewController.swift in Sources */,
+				4DAF602E1BE3FFF700BD3707 /* Sandbox.swift in Sources */,
 				4DAF600D1BE3FE8A00BD3707 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DAF60301BE4007100BD3707 /* SandboxSpec.swift in Sources */,
 				4DAF60221BE3FE8A00BD3707 /* swift_conjunction_functionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
