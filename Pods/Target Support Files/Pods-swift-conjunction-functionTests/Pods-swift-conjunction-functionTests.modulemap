@@ -1,0 +1,6 @@
+framework module Pods_swift_conjunction_functionTests {
+  umbrella header "Pods-swift-conjunction-functionTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
