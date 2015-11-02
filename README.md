@@ -5,9 +5,15 @@
 
 1. Use control flow statements within a function to program dynamic behavior based upon varying input arguments.
 
-## Instructions
+## Introduction
 
 Listen to [*Conjunction Junction*](https://youtu.be/RPoBE-E8VOc?t=13s) by [Schoolhouse Rock!](https://en.wikipedia.org/wiki/Schoolhouse_Rock!), performed by [Jack Sheldon](https://en.wikipedia.org/wiki/Jack_Sheldon), Terry Morel, and Mary Sue Berry in 1973.
+
+##### Using a Typed Collection as an Argument
+
+This lab requires that you type a function's argument as an array containing strings. The syntax for this is to wrap the name of the type to be held in the array with square brackets `[` `]`. So to type an argument as an array of type `String`, it would be written as `[String]`. Upcoming lessons will discuss types and typed collections in more detail.
+
+## Instructions
 
 Open `swift-conjunction-function.xcworkspace` and navigate to the `Sandbox.swift` file.
 
