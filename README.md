@@ -27,3 +27,4 @@ Write a function named `listWithElements(_:conjunction:)` that takes two argumen
 5. Acceptable `conjunction` arguments are `"and"`, `"or"`, and "`&"` ("ampersand", a symbol meaning "and"). If the `conjunction` argument does not match one of these three strings, the function should return a string message that reads `"unknown conjunction"`.
 
 If you wish to test your function with your own sample data, call it from the AppDelegate. When the tests in `SandboxSpec.swift` all pass you have completed this lab.
+<a href='https://learn.co/lessons/swift-conjunction-function' data-visibility='hidden'>View this lesson on Learn.co</a>
